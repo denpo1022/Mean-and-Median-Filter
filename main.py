@@ -133,7 +133,7 @@ def main():
     # use 3x3 median filter
     median_3x3_lena = MedianFilter(noise_lena, 9)
 
-    # use 3x3 mean filter
+    # use 5x5 mean filter
     mean_5x5_lena = MeanFilter(noise_lena, 25)
 
     # use 5x5 median filter
